@@ -1,0 +1,51 @@
+.home-container {
+  height: 300px;
+  color: white;
+}
+.home-content h1 {
+  padding: 5px;
+  padding-top: 70px;
+  margin-left: 150px;
+}
+.home-content h2 {
+  padding: 5px;
+  color: #e0b50f;
+  margin-left: 150px;
+}
+.home-button {
+  margin-left: 150px;
+}
+.home-button .btn-hire {
+  background-color: #3b8ff3;
+  color: white;
+  width: 160px;
+}
+.home-button .btn-hire:hover {
+  background-color: white;
+  color: #3b8ff3;
+  width: 200px;
+  transition: 1s;
+}
+.home-button .btn-cv {
+  background-color: #f29f67;
+  color: white;
+  margin-left: 12px;
+}
+.home-button .btn-cv:hover {
+  opacity: 80%;
+  transition: 1s;
+}
+
+@media (max-width: 600px) {
+  .home-container {
+    padding: 0;
+    margin: 0;
+    margin-top: 50px;
+  }
+  .home-container h2 {
+    font-size: 24px;
+  }
+  .home-container h1 {
+    font-size: 24px;
+  }
+}
