@@ -9,7 +9,7 @@ const About = () => {
         <div className="row">
           <div className="col-md-6 col-xl-6 col-lg-6 col-xs-12 about-img">
             <Spin>
-              <img src="./public/images/github.jpg" alt="profile_pic" />
+              <img src="./public/github.jpg" alt="profile_pic" />
             </Spin>
           </div>
           <Jump>

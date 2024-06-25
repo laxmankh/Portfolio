@@ -18,7 +18,7 @@ const Menu = ({ toggle }) => {
         <>
           <Zoom>
             <div className="navbar-profile-pic">
-              <img src="./public/images/github.jpg" alt="profile pic" />
+              <img src="./public/github.jpg" alt="profile pic" />
             </div>
           </Zoom>
           <Fade left>
