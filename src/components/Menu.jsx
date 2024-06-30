@@ -1,6 +1,7 @@
 import "./Menu.css";
 import Zoom from "react-reveal/Zoom";
 import Fade from "react-reveal/Fade";
+import myimages from "../../public/images/github.jpg";
 import { Link } from "react-scroll";
 import {
   FcAbout,
@@ -18,7 +19,7 @@ const Menu = ({ toggle }) => {
         <>
           <Zoom>
             <div className="navbar-profile-pic">
-              <img src="./public/github.jpg" alt="profile pic" />
+              <img src={myimages} alt="profile pic" />
             </div>
           </Zoom>
           <Fade left>
