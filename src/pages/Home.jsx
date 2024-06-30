@@ -1,6 +1,7 @@
 import React from "react";
 import Typewriter from "typewriter-effect";
 import "./Home.css";
+import resume from "../../public/images/Resume.pdf";
 import Fade from "react-reveal/Fade";
 //import Resume from "./public/images/Laxman_resume.pdf";
 const Home = () => {
@@ -48,11 +49,7 @@ const Home = () => {
                 Hire Me
               </a>
 
-              <a
-                className="btn btn-cv"
-                href="./public/images/Laxman_resume.pdf"
-                download="resume.pdf"
-              >
+              <a className="btn btn-cv" href={resume} download="resume.pdf">
                 My Resume
               </a>
             </div>
