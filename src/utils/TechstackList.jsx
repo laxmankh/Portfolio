@@ -3,6 +3,7 @@ import { FaNodeJs } from "react-icons/fa";
 import { TbBrandNextjs } from "react-icons/tb";
 import { BiLogoPython } from "react-icons/bi";
 import {
+  SiCplusplus,
   SiJavascript,
   SiMui,
   SiReact,
@@ -19,6 +20,8 @@ import {
   SiDocker,
   SiExpress,
   SiNginx,
+  SiVisualstudiocode,
+  SiPostman,
   SiAngular,
 } from "react-icons/si";
 export const TechstackList = [
@@ -29,7 +32,7 @@ export const TechstackList = [
   },
   {
     _id: 2,
-    name: "CSS / SCSS",
+    name: "CSS",
     icon: BsFiletypeCss,
   },
   {
@@ -44,8 +47,8 @@ export const TechstackList = [
   },
   {
     _id: 5,
-    name: "TypeScript",
-    icon: SiTypescript,
+    name: "C++",
+    icon: SiCplusplus,
   },
   {
     _id: 6,
@@ -59,54 +62,54 @@ export const TechstackList = [
   },
   {
     _id: 8,
-    name: "Nextjs",
-    icon: TbBrandNextjs,
+    name: "Visual Studio code",
+    icon: SiVisualstudiocode,
   },
   {
     _id: 9,
-    name: "React MUI",
-    icon: SiMui,
+    name: "Postman",
+    icon: SiPostman,
   },
   {
     _id: 10,
     name: "Tailwind ",
     icon: SiTailwindcss,
   },
-  {
-    _id: 11,
-    name: "Figma ",
-    icon: SiFigma,
-  },
-  {
-    _id: 12,
-    name: "Adobe XD ",
-    icon: SiAdobexd,
-  },
-  {
-    _id: 13,
-    name: "Photoshop ",
-    icon: SiAdobephotoshop,
-  },
-  {
-    _id: 14,
-    name: "React Native ",
-    icon: SiReact,
-  },
-  {
-    _id: 15,
-    name: "Node JS ",
-    icon: FaNodeJs,
-  },
+  // {
+  //   _id: 11,
+  //   name: "DBMS",
+  //   icon: FaDatabase,
+  // },
+  // {
+  //   _id: 12,
+  //   name: "Computer Network",
+  //   icon: FaNetworkWired,
+  // },
+  // {
+  //   _id: 13,
+  //   name: "Photoshop ",
+  //   icon: SiAdobephotoshop,
+  // },
+  // {
+  //   _id: 14,
+  //   name: "React Native ",
+  //   icon: SiReact,
+  // },
+  // {
+  //   _id: 15,
+  //   name: "Node JS ",
+  //   icon: FaNodeJs,
+  // },
   {
     _id: 16,
     name: "Express JS ",
     icon: SiExpress,
   },
-  {
-    _id: 17,
-    name: "Wordpress ",
-    icon: SiWordpress,
-  },
+  // {
+  //   _id: 17,
+  //   name: "Wordpress ",
+  //   icon: SiWordpress,
+  // },
   {
     _id: 18,
     name: "Mongodb ",
@@ -117,24 +120,24 @@ export const TechstackList = [
     name: "SQL ",
     icon: SiMysql,
   },
-  {
-    _id: 20,
-    name: "Firebase ",
-    icon: SiFirebase,
-  },
+  // {
+  //   _id: 20,
+  //   name: "Firebase ",
+  //   icon: SiFirebase,
+  // },
   {
     _id: 21,
     name: "Git / Github ",
     icon: SiGithub,
   },
-  {
-    _id: 22,
-    name: "Docker ",
-    icon: SiDocker,
-  },
-  {
-    _id: 23,
-    name: "Nginx ",
-    icon: SiNginx,
-  },
+  // {
+  //   _id: 22,
+  //   name: "Docker ",
+  //   icon: SiDocker,
+  // },
+  // {
+  //   _id: 23,
+  //   name: "Nginx ",
+  //   icon: SiNginx,
+  // },
 ];

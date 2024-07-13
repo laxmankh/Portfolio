@@ -22,19 +22,18 @@ const WorkExp = () => {
               contentArrowStyle={{
                 borderRight: "7px solid  white",
               }}
-              date="2023 - present"
+              date="April 2023- May 2023"
               iconStyle={{ background: "#1e1e2c", color: "#fff" }}
               icon={<SiReact />}
             >
-              <h3 className="vertical-timeline-element-title">
-                Full Stack Developer
-              </h3>
+              <h3 className="vertical-timeline-element-title">Web Developer</h3>
               <h4 className="vertical-timeline-element-subtitle">
-                xyz, pvt ltd
+                The Sparks Foundation
               </h4>
+              <h4>Role:Web Development and Designin</h4>
               <p>
-                Creative Direction, User Experience, Visual Design, Project
-                Management, Team Leading
+                Achieved 60% growth in web development skills.Developed an
+                Banking System Application using web development skills .
               </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
@@ -43,22 +42,25 @@ const WorkExp = () => {
               contentArrowStyle={{
                 borderRight: "7px solid  white",
               }}
-              date="2020 - 2022"
+              date="May 2024- July 2022"
               iconStyle={{ background: "#1e1e2c", color: "#fff" }}
               icon={<SiReact />}
             >
               <h3 className="vertical-timeline-element-title">
-                Full Stack Developer
+                React JS Developer
               </h3>
               <h4 className="vertical-timeline-element-subtitle">
-                xyz, pvt ltd
+                Celebal Summer Internship
               </h4>
+              <h4>Role: React JS Developer</h4>
               <p>
-                Creative Direction, User Experience, Visual Design, Project
-                Management, Team Leading
+                In the first phase of the internship, I learned the basics of
+                React JS and developed practice projects. Weekly tasks and
+                assignments reinforced my understanding and ensured continuous
+                learning and development.
               </p>
             </VerticalTimelineElement>
-            <VerticalTimelineElement
+            {/* <VerticalTimelineElement
               className="vertical-timeline-element--work"
               contentStyle={{ background: "white", color: "#1e1e2c" }}
               contentArrowStyle={{
@@ -78,7 +80,7 @@ const WorkExp = () => {
                 Creative Direction, User Experience, Visual Design, Project
                 Management, Team Leading
               </p>
-            </VerticalTimelineElement>
+            </VerticalTimelineElement> */}
           </VerticalTimeline>
         </div>
       </div>

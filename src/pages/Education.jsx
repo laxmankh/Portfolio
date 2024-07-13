@@ -55,7 +55,7 @@ const Education = () => {
             <h4 className="vertical-timeline-element-subtitle">
               JSPM's Rajarshi Shahu College of Engineering Pune
             </h4>
-            <h5>CGPA:8.92</h5>
+            <h5>CGPA:8.8</h5>
           </VerticalTimelineElement>
         </VerticalTimeline>
       </div>

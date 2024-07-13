@@ -3,6 +3,8 @@ import "./Contact.css";
 import Swal from "sweetalert2";
 import Rotate from "react-reveal/Rotate";
 import LightSpeed from "react-reveal/LightSpeed";
+import Fade from "react-reveal/Fade";
+import Spin from "react-reveal/Spin";
 import { BsInstagram, BsFacebook, BsGithub, BsLinkedin } from "react-icons/bs";
 
 const Contact = () => {
@@ -61,18 +63,18 @@ const Contact = () => {
             <div className="col-md-6 col-lg-6 col-xl-6 col-sm-12">
               <div className="card1">
                 <div className="row border-line">
-                  <LightSpeed>
+                  <Fade left>
                     <img
                       src="https://img.freepik.com/free-photo/hot-line-contact-us-call-center-search-interface_53876-124009.jpg?w=2000"
                       alt="ocontact"
                       className="image"
                     />
-                  </LightSpeed>
+                  </Fade>
                 </div>
               </div>
             </div>
             <div className="col-lg-6 col-md-6 connect">
-              <Rotate>
+              <Fade right>
                 <div className="card2 d-flex card border-0 px-4 py-5">
                   <div className="row">
                     <div className="row">
@@ -137,7 +139,7 @@ const Contact = () => {
                     </form>
                   </div>
                 </div>
-              </Rotate>
+              </Fade>
             </div>
           </div>
         </div>

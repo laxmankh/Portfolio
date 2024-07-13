@@ -1,6 +1,10 @@
 import React from "react";
 import "./Projects.css";
-import Spin from "react-reveal/Spin";
+import project1 from "../../public/images/Banner.png";
+import project2 from "../../public/images/todo.jpg";
+import project3 from "../../public/images/portfolio.jpg";
+// import Spin from "react-reveal/Spin";
+import Fade from "react-reveal/Fade";
 const Projects = () => {
   return (
     <>
@@ -10,23 +14,19 @@ const Projects = () => {
         </h2>
         <hr />
         <p className="pb-3 text-center">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia a
-          odit ab, eligendi cupiditate, minima quasi excepturi modi et quo
-          delectus, iusto dolor atque aliquam aspernatur eveniet! Ipsam eum
-          nobis omnis id voluptatibus quas eos maxime ipsum facere numquam,
-          voluptate qui et animi doloribus nulla eius molestiae unde tempore ad
+          These are my top recent projects showcased in the project section of
+          my portfolio application.
         </p>
         {/* card design */}
         <div className="row" id="ads">
-          <Spin>
+          <Fade right>
             <div className="col-md-4">
               <div className="card rounded">
                 <div className="card-image">
-                  <span className="card-notify-badge">Full stack</span>
-                  <img
-                    src="https://unctad.org/sites/default/files/2021-03/2021-03-15_eCommerceCOVID19report-1-1220x675px.jpg"
-                    alt="project1"
-                  />
+                  <span className="card-notify-badge">MERN stack</span>
+                  <a href="https://github.com/laxmankh/Bookstore_Web_App">
+                    <img src={project1} alt="project1" />
+                  </a>
                 </div>
                 <div className="card-image-overly m-auto mt-3">
                   <span className="card-detail-badge">Node</span>
@@ -37,12 +37,12 @@ const Projects = () => {
                 <div className="card-body text-center">
                   <div className="ad-title m-auto">
                     <h6 className="text-uppercase">
-                      Techinfoyt Shopping Website
+                      Bookstore Web Application
                     </h6>
                   </div>
                   <a
                     className="ad-btn"
-                    href="https://github.com/techinfo-youtube/ecommerce-app-2023"
+                    href="https://bookstore-web-app-delta.vercel.app/"
                   >
                     View
                   </a>
@@ -52,24 +52,23 @@ const Projects = () => {
             <div className="col-md-4">
               <div className="card rounded">
                 <div className="card-image">
-                  <span className="card-notify-badge">Mobile App</span>
-                  <img
-                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR356D-1YtSagN4-_ZdjZ5H9o6PKUO4h12dvw&usqp=CAU"
-                    alt="project2"
-                  />
+                  <span className="card-notify-badge">React</span>
+                  <a href="https://github.com/laxmankh/Todo_react">
+                    <img src={project2} alt="project2" />
+                  </a>
                 </div>
                 <div className="card-image-overly m-auto mt-3">
-                  <span className="card-detail-badge">React Native</span>
+                  <span className="card-detail-badge">React</span>
 
-                  <span className="card-detail-badge">IOS / ANDROID</span>
+                  <span className="card-detail-badge">Git</span>
                 </div>
                 <div className="card-body text-center">
                   <div className="ad-title m-auto">
-                    <h6 className="text-uppercase">Techinfoyt Coding App</h6>
+                    <h6 className="text-uppercase">ToDo Application</h6>
                   </div>
                   <a
                     className="ad-btn"
-                    href="https://github.com/techinfo-youtube/ecommerce-app-2023"
+                    href="https://todo-react-pi-taupe.vercel.app/ "
                   >
                     View
                   </a>
@@ -79,29 +78,34 @@ const Projects = () => {
             <div className="col-md-4">
               <div className="card rounded">
                 <div className="card-image">
-                  <span className="card-notify-badge">Backend</span>
-                  <img
-                    src="https://www.nextwebi.com/assets/img/img-source/mobile-top-banner-28.png"
-                    alt="project1"
-                  />
+                  <span className="card-notify-badge">React</span>
+                  <a href="https://github.com/laxmankh/Portfolio">
+                    {" "}
+                    <img src={project3} alt="project1" />
+                  </a>
                 </div>
                 <div className="card-image-overly m-auto mt-3">
-                  <span className="card-detail-badge">Node</span>
-                  <span className="card-detail-badge">Express</span>
+                  <span className="card-detail-badge">React</span>
+                  <span className="card-detail-badge">Bootstrap</span>
 
-                  <span className="card-detail-badge">NoSQL</span>
+                  <span className="card-detail-badge">Web3Form</span>
                 </div>
                 <div className="card-body text-center">
                   <div className="ad-title m-auto">
-                    <h6 className="text-uppercase">Techinfoyt Job Portal</h6>
+                    <h6 className="text-uppercase">
+                      Personal Portfolio Website
+                    </h6>
                   </div>
-                  <a className="ad-btn" href="view">
+                  <a
+                    className="ad-btn"
+                    href="https://portfolio-lt46.vercel.app/"
+                  >
                     View
                   </a>
                 </div>
               </div>
             </div>
-          </Spin>
+          </Fade>
         </div>
       </div>
     </>
