@@ -22,10 +22,7 @@ The portfolio website serves as a personal showcase of my projects, skills, and 
   - JavaScript: For application logic.
   - CSS: For styling the components.
   - HTML: For structuring the content.
-- **Backend**:
-  - Node.js: For server-side logic.
-  - Express.js: For building the RESTful API.
-
+# Visit My Portfolio Website--->https://portfolio-lt46.vercel.app/
 ## Screenshot
 
 ![Portfolio Website Screenshot](./public/images/Screenshot%202024-06-02%20175411.png)
