@@ -19,7 +19,7 @@ const About = () => {
               <p>
                 <h5>
                   {" "}
-                  As an IT Engineer, I specialize in creating visually appealing
+                  {/* As an IT Engineer, I specialize in creating visually appealing
                   and intuitive user experiences with a good foundation in web
                   technologies. I excel at building responsive websites and
                   applications, continuously exploring new technologies like
@@ -28,7 +28,13 @@ const About = () => {
                   Internpe, Oasis Infobyte, and Celebal Summer Internship
                   focusing on React.js, my goal is to craft websites that are
                   both visually appealing and user-friendly. Let's connect to
-                  drive your web development projects to success.
+                  drive your web development projects to success. */}
+                  Motivated IT Engineer with a good foundation in data
+                  structures, algorithms, and software development, eager to
+                  drive impactful projects and tackle real-world challenges in a
+                  growth-focused organization. Ready to deliver value through
+                  innovation, collaboration, and continuous learning to
+                  contribute meaningfully from day one.
                 </h5>
               </p>
             </div>
