@@ -3,6 +3,7 @@ import "./Projects.css";
 import project1 from "../../public/images/Banner.png";
 import project2 from "../../public/images/todo.jpg";
 import project3 from "../../public/images/portfolio.jpg";
+import Country_tour from "../../public/images/Country_tour.jpg";
 // import Spin from "react-reveal/Spin";
 import Fade from "react-reveal/Fade";
 const Projects = () => {
@@ -99,6 +100,32 @@ const Projects = () => {
                   <a
                     className="ad-btn"
                     href="https://portfolio-lt46.vercel.app/"
+                  >
+                    View
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-4 temp">
+              <div className="card rounded">
+                <div className="card-image">
+                  <span className="card-notify-badge">React</span>
+                  <a href="https://github.com/laxmankh/Country_tour">
+                    <img src={Country_tour} alt="Country_tour" />
+                  </a>
+                </div>
+                <div className="card-image-overly m-auto mt-3">
+                  <span className="card-detail-badge">react</span>
+                  <span className="card-detail-badge">Axios</span>
+                  <span className="card-detail-badge">React-Icons</span>
+                </div>
+                <div className="card-body text-center">
+                  <div className="ad-title m-auto">
+                    <h6 className="text-uppercase">Country_Tour</h6>
+                  </div>
+                  <a
+                    className="ad-btn"
+                    href="https://github.com/laxmankh/Country_tour"
                   >
                     View
                   </a>
