@@ -1,7 +1,7 @@
 import React from "react";
 import Typewriter from "typewriter-effect";
 import "./Home.css";
-import resume from "../../public/images/Resume.pdf";
+import resume from "../../public/images/Laxman_resume (5).pdf";
 import Fade from "react-reveal/Fade";
 //import Resume from "./public/images/Laxman_resume.pdf";
 const Home = () => {
