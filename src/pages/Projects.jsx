@@ -25,7 +25,7 @@ const Projects = () => {
               <div className="card rounded">
                 <div className="card-image">
                   <span className="card-notify-badge">MERN stack</span>
-                  <a href="https://github.com/laxmankh/Bookstore_Web_App">
+                  <a href="https://github.com/laxmankh?tab=repositories">
                     <img src={project1} alt="project1" />
                   </a>
                 </div>
