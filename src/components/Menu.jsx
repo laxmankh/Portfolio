@@ -1,7 +1,7 @@
 import "./Menu.css";
 import Zoom from "react-reveal/Zoom";
 import Fade from "react-reveal/Fade";
-import myimages from "../../public/images/github.jpg";
+import myimages from "../../public/images/lakhan_dp.jpg";
 import { Link } from "react-scroll";
 import {
   FcAbout,

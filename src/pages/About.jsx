@@ -2,7 +2,7 @@ import React from "react";
 import "./About.css";
 import Jump from "react-reveal/Jump";
 import Spin from "react-reveal/Spin";
-import myimages from "../../public/images/github.jpg";
+import myimages from "../../public/images/lakhan_ima.jpg";
 const About = () => {
   return (
     <>

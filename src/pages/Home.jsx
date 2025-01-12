@@ -10,50 +10,59 @@ const Home = () => {
   // const handleTheme = () => {
   //   setTheme((prevState) => (prevState === "light" ? "dark" : "light"));
   // };
-  return (
-    <>
-      <div className="container-fluid home-container" id="home">
-        {/* <div className="theme-btn" onClick={handleTheme}>
+  {
+    /* <div className="theme-btn" onClick={handleTheme}>
           {" "}
           {theme === "light" ? (
             <BsFillMoonStarsFill size={30} />
           ) : (
             <BsFillSunFill size={30} />
           )}
-        </div> */}
-        <div className="container home-content">
-          <Fade right>
-            <h1>Hi👋 I'm a</h1>
-            <h2>
-              <Typewriter
-                options={{
-                  strings: [
-                    "Laxman Khandagale!",
-                    "React Developer",
-                    "MERN Stack Developer",
-                  ],
-                  autoStart: true,
-                  loop: true,
-                }}
-              />
-            </h2>
-          </Fade>
-          <Fade top>
-            <div className="home-button">
-              <a
-                className="btn btn-hire"
-                href="https://api.whatsapp.com/send?phone=7666019362"
-                rel="noreferrer"
-                target="_blank"
-              >
-                Hire Me
-              </a>
+        </div> */
+  }
+  return (
+    <>
+      <div className="Main">
+        <div className="container-fluid home-container" id="home">
+          <div className="container home-content">
+            <Fade right>
+              <h1>Hi👋 I'm a</h1>
+              <h2>
+                <Typewriter
+                  options={{
+                    strings: [
+                      "Laxman Khandagale!",
+                      "React Developer",
+                      "MERN Stack Developer",
+                    ],
+                    autoStart: true,
+                    loop: true,
+                  }}
+                />
+              </h2>
+            </Fade>
+            <Fade top>
+              <div className="home-button">
+                <a
+                  className="btn btn-hire"
+                  href="https://api.whatsapp.com/send?phone=7666019362"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  Hire Me
+                </a>
 
-              <a className="btn btn-cv" href={resume} download="resume.pdf">
-                My Resume
-              </a>
-            </div>
-          </Fade>
+                <a
+                  style={{ padding: "7px" }}
+                  className="btn btn-cv"
+                  href={resume}
+                  download="resume.pdf"
+                >
+                  Resume
+                </a>
+              </div>
+            </Fade>
+          </div>
         </div>
       </div>
     </>
